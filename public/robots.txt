@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://dust2ub.github.io/sitemap.xml
