@@ -50,7 +50,7 @@ tocopen = false
 
   [params.label]
   text = "dbqp"
-  icon = "/apple-touch-icon.png"
+  icon = "/icon.png"
   iconHeight = 35
 
   [params.profileMode]
