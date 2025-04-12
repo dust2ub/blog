@@ -50,7 +50,7 @@ tocopen = false
 
   [params.label]
   text = "dbqp"
-  icon = "/icon.png"
+#  icon = "/icon.png"
   iconHeight = 35
 
   [params.profileMode]
@@ -76,15 +76,15 @@ tocopen = false
 
   [[params.socialIcons]]
   name = "x"
-  url = "https://x.com/"
+  url = "https://x.com/seekingfireteam"
 
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
+#  [[params.socialIcons]]
+#  name = "stackoverflow"
+#  url = "https://stackoverflow.com"
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/dust2ub"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"

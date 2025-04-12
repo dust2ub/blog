@@ -1,14 +1,10 @@
 ---
-title: "방명록"
+title: "Guestbook"
+type: "guestbook"
+layout: "guestbook"
 ---
+방명록은 즉시 반영되지 않고 주인장이 하나하나 등록해 드립니다ㅎㅎ
 
+주인장의 답글과 함께 달릴 테니 부디 기다려주세요~
 
----
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="df4997e9-dcec-4670-b43a-e5a7625238d7"
-  data-page-id="{{ .File.UniqueID }}"
-  data-page-url="{{ .Permalink }}"
-  data-page-title="{{ .Title }}"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+방문해 주셔서 감사합니다! :)

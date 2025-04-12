@@ -1,0 +1,65 @@
+{{ define "main" }}
+<main class="guestbook-container">
+  <h1>{{ .Title }}</h1>
+  <br>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  <br>
+  <div style="display: flex; gap: 20px; align-items: center;">
+    <div style="text-align: center;">
+      <a href="https://dust2ub.github.io/" target="_blank">
+        <img src="https://dust2ub.github.io/banner.png" alt="주인장 배너" height="40">
+      </a>
+      <div style="font-size: 14px; margin-top: 5px;">주인장 배너</div>
+    </div>
+  
+    <div style="text-align: center;">
+      <a href="http://igmon.dothome.co.kr/" target="_blank">
+        <img src="https://dust2ub.github.io/igmon_banner.jpg" alt="갓숭님 배너" height="40">
+      </a>
+      <div style="font-size: 14px; margin-top: 5px;">갓숭님 배너</div>
+    </div>
+  </div>
+
+  <div style="font-size: 18px; margin-top: 50px;">(아래는 배너 코드입니다! 교환해요~XD)</div>
+  <pre>
+&lt;a href="https://dust2ub.github.io/" target="_blank"&gt;
+&lt;img src="https://dust2ub.github.io/banner.png"&gt;
+&lt;/a&gt;
+  </pre>
+
+  <!-- Cusdis Embed -->
+  <div id="cusdis_thread"
+       data-host="https://cusdis.com"
+       data-app-id="df4997e9-dcec-4670-b43a-e5a7625238d7"
+       data-page-id="{{ .File.UniqueID }}"
+       data-page-url="{{ .Permalink }}"
+       data-page-title="{{ .Title }}">
+       data-theme="light" 
+  </div>
+
+  {{ "<script async defer src=\"https://cusdis.com/js/cusdis.es.js\"></script>" | safeHTML }}
+
+  <style>
+    #cusdis_thread {
+      max-width: 100%;
+      width: 100%;
+      background: white;
+      padding: 1.5rem;
+      box-sizing: border-box;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+  
+    #cusdis_thread iframe {
+      width: 100% !important;
+      min-height: 600px !important;
+      height: auto !important;
+      overflow: hidden !important;
+      border: none !important;
+      background: white !important;
+    }
+  </style>
+</main>
+{{ end }}

@@ -1,4 +1,4 @@
 ---
 title: 'Umi'
-tags: ["TRPG"]
+tags: ["TRPG", "DX"]
 ---
