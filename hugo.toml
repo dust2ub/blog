@@ -117,21 +117,21 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "posts"
-name = "posts"
+name = "Posts"
 url = "/post/"
-weight = 10
+weight = 20
 
 [[menu.main]]
 identifier = "profiles"
-name = "profiles"
+name = "Profiles"
 url = "/profile/"
-weight = 20
+weight = 30
 
 [[menu.main]]
 identifier = "guestbook"
 name = "Guestbook"
 url = "/guestbook/"
-weight = 30
+weight = 40
 
 # [[menu.main]]
 # identifier = "categories"

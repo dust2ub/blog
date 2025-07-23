@@ -1,8 +1,9 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }} # 2025-04-01T14:30:03+00:00
+categories: ["test"]
 tags: ["test"]
-weight: 1
+weight: 10
 # aliases: ["/first"]
 # author: "dust2ub"
 # author: ["Me", "You"] # multiple authors
